@@ -1,0 +1,116 @@
+.sk-top	.segment {
+	margin-top: 0;
+	border-radius: 0;
+	color: rgba(255,255,255,0.8);
+}
+
+/* Zawartosc */
+.sk-content {
+	margin-top: 50px;
+}
+
+form .red {
+	margin-bottom: 20px;
+}
+
+.ui.label {
+	font-weight: 400 !important;
+	margin-bottom: 0.6em !important;
+}
+
+.sk-popular-users {
+	margin-top: 30px;
+    margin-left: 25px;
+   
+}
+
+.sk-column-header {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.single-article {
+	margin-bottom: 20px;
+    width: 400px;
+    min-height: 200px;
+    height: auto;
+   
+    
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    background: URL(../images/footer_lodyas.png) top center no-repeat;
+    margin: 10px;
+     color: #fff;
+    float: left;
+    font-size: 1em;
+}
+
+.single-article0 {
+	margin-bottom: 20px;
+    width: 400px;
+    min-height: 200px;
+    height: auto;
+   
+    
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: forestgreen;
+    margin: 10px;
+     color: #fff;
+    float: left;
+    font-size: 1em;
+}
+.single-article1 {
+	margin-bottom: 20px;
+    width: 400px;
+    min-height: 200px;
+    height: auto;
+   
+    
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #2084c2;
+    margin: 10px;
+     color: #fff;
+    float: left;
+    font-size: 1em;
+}
+
+.single-article img {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* Stopka */
+.sk-footer {
+	margin-top: 80px;
+	padding: 40px 0;
+	background-color: #2185D0;
+	color: #EFEFEF;
+}
+
+.sk-footer a {		
+	color: #EFEFEF;
+	font-size: 110%;
+	margin: 0 12px;
+}
+
+.sk-footer a:first-child {
+	margin-left: 0;
+}
+
+.sk-footer a:hover {
+	color: #DDDDDD;
+}

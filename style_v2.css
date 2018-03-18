@@ -1,0 +1,392 @@
+body
+{
+  
+   
+    font-size: 20px;
+   
+}
+
+.header
+{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+     font-size: 15px;
+    height:50px;
+ 
+}
+
+header h1
+{
+    float: left;
+    width: 35%;
+    min-width: 200px;
+    margin-top: 3px;
+    
+  
+}
+
+header h1 a
+{
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 2px 0;
+    text-indent: -999em;
+    background: url('images/logo.png') top left no-repeat;
+
+}
+
+header nav
+{
+    float: right;
+    width: 65%;
+    height: 30px;
+
+}
+header nav ul
+{
+    display: table;
+    width: 100%;
+    height: 30px;
+}
+
+header nav ul li
+{
+    display: table-cell;
+}
+
+header nav ul li a
+{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 1em;
+    color: #3399FF;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    
+}
+
+header nav li a:hover
+{
+    background: #3399FF;
+    color: #fff;
+}
+
+.slogan-bg
+{
+    height: auto;
+    min-height:   500px;
+    width: 100%;
+    background: URL(images/hexellence-1920x1080.jpg) top center no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    border-top: 2px solid #3399FF ;
+   
+}
+
+.slogan
+{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Impact', sans-serif;
+    font-size: 1.5em;
+    line-height: 1.7em;
+}
+
+.slogan h1
+{
+    color: #393b38;
+    display: inline;
+    padding: 5px 0px;
+    background: rgba(255, 255, 255, 0.8);
+    
+}
+
+.slogan h2
+{
+    color:#393b38;
+      display: inline;
+    padding: 5px 0px;
+     background: rgba(255, 255, 255, 0.8);
+    
+}
+
+
+#container
+{
+
+    width: 1200px;
+   height: auto;
+    min-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+     
+   /* border: 2px solid black; */
+    padding: 10px;
+    
+    
+  
+  
+}
+
+.square
+{
+    float: left;
+    width: 600px;
+}
+
+
+.slogan1
+{
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Calibri', sans-serif;
+    font-size: 1em;
+    line-height: 1.7em;
+}
+.square2
+{
+    width: 500px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+.slogan1 h3
+{
+    color:#393b38;
+      display: inline;
+    padding: 5px 0px;
+     background: rgba(255, 255, 255, 0.8);
+    
+}
+
+.register_form
+{
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    padding: 10px;
+  /*  border: 2px solid black; */
+   
+ 
+}
+
+
+
+.box_up
+{
+    /*background-color: white;*/
+	width: 300px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    
+   /*  border: 2px solid black; */
+}
+
+.box_down
+{
+   /*background-color: white;*/
+    width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:10px;
+    -webkit-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+    
+    /*border: 2px solid black;*/
+}
+
+
+
+input[type=text],
+input[type=password]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666;
+	/*border: 2px solid #ddd;*/
+	/*border-radius: 5px;*/
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box; 
+	outline: none;
+	margin-top: 10px;
+}
+
+
+input[type=text]:focus,
+input[type=password]:focus
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]
+{
+	width: 300px;
+    background-color: #0033FF;
+	font-size:20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 20px;
+	border: none;
+	/*border-radius: 5px;*/
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+    border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]:hover
+{
+	background-color: #3399FF;
+}
+
+input::-webkit-input-placeholder
+{
+    color: #999;
+}
+input:focus::-webkit-input-placeholder
+{
+    color: #0066FF;
+}
+/* Firefox < 19 */
+input:-moz-placeholder
+{
+    color: #999;
+}
+input:focus:-moz-placeholder
+{
+    color: #0066FF;
+}
+/* Firefox > 19 */
+input::-moz-placeholder
+{
+    color: #999;
+}
+input:focus::-moz-placeholder
+{
+    color: #0066FF;
+}
+/* Internet Explorer 10 */
+input:-ms-input-placeholder
+{
+    color: #999;
+}
+input:focus:-ms-input-placeholder
+{
+    color: #0066FF;
+}
+
+
+
+footer
+{
+        clear: both;
+		background-image: URL('images/wild_oliva/wild_oliva.png');
+		color: #fff;
+		text-align: center;
+		padding:10px;
+		
+        line-height: 30px;    
+        font-size: 1em;
+        border-top: 7px solid #2f2f2f;
+}
+/*
+footer
+{
+    width: 1200px;
+	margin: 20px;
+    height: 40px;
+    max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+    margin-top: 10px;
+	text-align: center;
+    border: 2px solid black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+*/
+
+.profile
+{
+    width: 300px;
+    height: 300px;
+    
+    float: left;
+    
+    border: 2px solid black;
+    
+    margin: 10px;
+    
+    text-align: center;
+}
+
+.content
+{
+    width: 850px;
+    height: 500px;
+    
+    float: left;
+    
+    border: 2px solid black;
+    
+    margin: 10px;
+}
+
+.title1
+{
+    width:  400px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    text-align: center;
+    border: 2px solid black;
+}
+
+.spotkania
+{
+    font-size: 35px;
+}
